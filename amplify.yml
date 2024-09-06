@@ -9,6 +9,7 @@ frontend:
   phases:
     build:
       commands:
+        - nvm install 20.17.0
         - npm install -g @angular/cli --force
         - ng version
         - ng build --configuration=production
