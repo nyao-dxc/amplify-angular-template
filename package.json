@@ -20,6 +20,8 @@
     "@angular/router": "^17.3.0",
     "@aws-amplify/auth": "^6.4.0",
     "@aws-amplify/ui-angular": "^5.0.21",
+    "@azure/msal-angular": "^3.0.23",
+    "@azure/msal-browser": "^3.23.0",
     "aws-amplify": "^6.6.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

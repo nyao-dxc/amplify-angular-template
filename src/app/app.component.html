@@ -1,4 +1,14 @@
-<app-todos></app-todos>
+<button (click)="navigateToLogin()">Login with EntraID</button>
+<!-- <amplify-authenticator [socialProviders]="['amazon', 'apple', 'facebook', 'google']">
+    <ng-template
+      amplifySlot="authenticated"
+      let-user="user"
+      let-signOut="signOut"
+    >
+      <app-todos></app-todos>
+      <button (click)="signOut()">Sign Out</button>
+    </ng-template>
+  </amplify-authenticator> -->
 <!-- <amplify-authenticator [socialProviders]="['amazon', 'apple', 'facebook', 'google']">
     <ng-template
       amplifySlot="authenticated"
