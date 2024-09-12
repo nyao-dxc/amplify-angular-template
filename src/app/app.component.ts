@@ -22,7 +22,7 @@ export class AppComponent {
   }
 
   navigateToLogin() {
-    //window.location.href = 'https://nyao.auth.ap-northeast-1.amazoncognito.com/oauth2/authorize?client_id=3b1i73n0o57vdk824dsts37jou&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fmain.d3sostuq9a761k.amplifyapp.com%2F';
-    this.router.navigate(['/todos']);
+    window.location.href = 'https://nyao.auth.ap-northeast-1.amazoncognito.com/oauth2/authorize?client_id=3b1i73n0o57vdk824dsts37jou&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Ftodos';
+    //this.router.navigate(['/todos']);
   }
 }
